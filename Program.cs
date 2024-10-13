@@ -9,8 +9,8 @@ namespace OOP;
  * methods to calculate both perimeter, area,
  * and volume based on user input.
  * There is basically endless room for scaling, adding
- * both more shapes and methods. The triangle class could
- * also be improved by adding more choices with methods.
+ * both more shapes and methods/logic. The triangle class could
+ * be improved by adding a way to calculate area or perimeter.
  =================================================*/
 
 public class Program
@@ -111,7 +111,7 @@ public class Program
     }
     
     //Method to get a valid user input
-    //Both min and max are nullable allowing for a scale between numbers, but also no set values
+    //Both min and max has a null-value, allowing for a scale between numbers, but also no set values
     public static int GetValidInput(int? min, int? max)
     {
         int input;
